@@ -1,0 +1,34 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "FR4732G349.ma.cih.retailbankingapp",
+          "FR4732G349.ma.cih.retailbankingapp.pilote",
+          "FR4732G349.ma.cih.retailbankingapp.uat",
+          "FR4732G349.ma.cih.retailbankingapp.sit",
+          "FR4732G349.ma.cih.retailbankingapp.dev"
+        ],
+        "components": [
+          {
+            "/": "/enrollment*",
+            "comment": "Self-enrollment"
+          },
+          {
+            "/": "/*",
+            "comment": "All other HTTPS paths"
+          }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "FR4732G349.ma.cih.retailbankingapp",
+      "FR4732G349.ma.cih.retailbankingapp.pilote",
+      "FR4732G349.ma.cih.retailbankingapp.uat",
+      "FR4732G349.ma.cih.retailbankingapp.sit",
+      "FR4732G349.ma.cih.retailbankingapp.dev"
+    ]
+  }
+}
